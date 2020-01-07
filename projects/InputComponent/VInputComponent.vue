@@ -38,7 +38,7 @@ export default {
       default: 'text',
       validate: val => {
         return (
-          ['text', 'url', 'email', 'password', 'search'].indexOf(val) !== -1
+          ['text', 'url', 'email', 'password', 'search', 'number'].indexOf(val) !== -1
         )
       },
     },
